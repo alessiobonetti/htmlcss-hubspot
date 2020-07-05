@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* clear for float */
+.clear {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* /clear for float */
+
+/* header top */
+/* /header top */
+
+/* header middle */
+/* /header middle */
+
+/* header bottom */
+/* /header bottom */
