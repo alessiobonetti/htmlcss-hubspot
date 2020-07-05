@@ -11,6 +11,12 @@
   clear: both;
 }
 /* /clear for float */
+/* fonts */
+* {
+  font-size: 16px;
+  color: #00008B;
+}
+/* /fonts */
 
 /* buttons */
 .button_orange{
@@ -43,7 +49,7 @@
 /* /containers */
 
 /* header top */
-.header_top_container {
+#header_top_container {
   background-color: #FFF1EE;
   border-bottom: 1px solid black;
 }
@@ -64,17 +70,18 @@
   width: 50%;
 }
 
-.left_list {
+.header_top_left_list {
   color: #00008B;
 }
 
-.left_list li {
-  padding: 10px;
+.header_top_left_list li {
+  padding-top:  10px;
+  padding-right: 15px;
 }
 
-.border_contact{
+.border_contactus {
+  padding-left: 15px;
   border-left: 1px solid #00008B;
-  padding-left: 5px;
 }
 /* /left column */
 
@@ -86,17 +93,38 @@
   padding: 0 5px;
 }
 
-.right_list li {
+.header_top_right_list li {
   padding-left: 10px;
 }
 
-.right_list li > i {
+.header_top_right_list li > i {
   color: #007fff
 }
 /* /right column */
 /* /header top */
 
 /* header middle */
+#header_middle_top {
+  padding: 15px 0;
+}
+
+.header_middle_top_logo{
+  float: left;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.header_middle_navigation {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+.header_middle_top_right_list li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 15px;
+}
 /* /header middle */
 
 /* header bottom */
