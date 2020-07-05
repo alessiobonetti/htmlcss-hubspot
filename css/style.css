@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 /* clear for float */
 .clear_box::after {
   content: "";
@@ -36,6 +37,19 @@
   padding: 10px 10px;
 }
 /* /buttons */
+
+/* layer */
+.layer {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  height: 79px;
+  width: 100%;
+  background-color: #AAE9E2;
+  border-top: 2px solid #000;
+
+}
+/* /layer */
 
 /* containers */
 /* small */
@@ -131,6 +145,7 @@
 
 /* header middle center */
 #header_middle_background{
+  position: relative;
   height: 700px;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
