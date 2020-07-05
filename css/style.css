@@ -38,18 +38,7 @@
 }
 /* /buttons */
 
-/* layer */
-.layer {
-  position: absolute;
-  bottom: 5px;
-  right: 0;
-  height: 79px;
-  width: 100%;
-  background-color: #AAE9E2;
-  border-top: 2px solid #000;
 
-}
-/* /layer */
 
 /* containers */
 /* small */
@@ -151,6 +140,19 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
+/* layer */
+.layer {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  height: 79px;
+  width: 100%;
+  background-color: #AAE9E2;
+  border-top: 2px solid #000;
+
+}
+/* /layer */
 .header_middle_text {
   float: left;
   width: 50%;
