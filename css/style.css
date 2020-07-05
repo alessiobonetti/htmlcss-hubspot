@@ -5,14 +5,73 @@
 }
 
 /* clear for float */
-.clear {
+.clear_box::after {
   content: "";
   display: block;
   clear: both;
 }
 /* /clear for float */
 
+/* buttons */
+.button_orange{
+  color: #fff;
+  background-color: #FF7A59;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.button_login {
+  color:#FF7A59;
+  background-color: transparent;
+  border: 1px solid #FF7A59;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+/* /buttons */
+
+/* containers */
+/* small */
+/* /small */
+
+/* normal */
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* /normal */
+/* /containers */
+
 /* header top */
+#header_top{
+  background-color: yellow;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+#header_top ul {
+
+}
+
+#header_top li {
+  display: inline-block;
+  list-style: none;
+}
+
+/* left column */
+.language_choice {
+  float: left;
+  width: 50%;
+}
+/* /left column */
+
+/* right column */
+.search {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+/* /right column */
 /* /header top */
 
 /* header middle */
