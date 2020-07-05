@@ -89,6 +89,10 @@
 .right_list li {
   padding-left: 10px;
 }
+
+.right_list li > i {
+  color: #007fff
+}
 /* /right column */
 /* /header top */
 
