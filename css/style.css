@@ -297,15 +297,18 @@ h1 {
 #main_centre_middle {
   padding: 50px 0;
 }
+
+#main_centre_middle div {
+  text-align: center;
+  margin-right: 100px;
+
+}
 /* left column */
 .main_centre_middle_left_column {
   float: left;
-  width: 33%;
+  width: 25%;
 }
 
-.main_centre_middle_left_column {
-  text-align: center;
-}
 
 
 /* /left column */
@@ -313,14 +316,14 @@ h1 {
 /* middle column */
 .main_centre_middle_middle_column {
   float: left;
-  width: 33%;
+  width: 25%;
 }
 /* /middle column */
 
 /* right column */
 .main_centre_middle_right_column {
   float: left;
-  width: 33%;
+  width: 25%;
 }
 /* right column */
 
