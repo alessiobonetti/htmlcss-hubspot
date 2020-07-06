@@ -37,6 +37,7 @@
 
 .text_h5 {
   font-size: 30px;
+  color: #fff;
 }
 /* /fonts */
 
@@ -409,13 +410,18 @@ h1 {
 
 #main_centre_bottom strong {
   font-size: 35px;
+  color: #fff;
 }
 
 #main_centre_bottom > p {
   padding: 30px 10px;
+  color: #fff;
 }
 
 /* table */
+.main_bottom_table p {
+  color: #fff;
+}
 /* column1 */
 .main_bottom_column1 {
   float: left;
