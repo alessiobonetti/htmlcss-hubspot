@@ -109,6 +109,15 @@
   background-color: lightgrey;
   border: 1px solid lightgrey;
 }
+
+.main_bottom_hr {
+  .main_hr {
+    display: inline-block;
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #fff;
+  }
+}
 /* /hr */
 
 
@@ -389,13 +398,13 @@ h1 {
 
 /* main centre bottom */
 .main_centre_bottom_background {
-  height: 500px;
   background: rgb(24,203,131);
   background: linear-gradient(48deg, rgba(24,203,131,1) 55%, rgba(15,139,164,1) 100%);
 }
 
 #main_centre_bottom {
   text-align: center;
+  color: white;
 }
 
 #main_centre_bottom strong {
@@ -411,6 +420,11 @@ h1 {
 .main_bottom_column1 {
   float: left;
   width: 25%;
+  border-right: 2px solid #ffff;
+  padding: 20px 0;
+}
+.main_bottom_column1 hr {
+  margin: 20px 0;
 }
 
 /* /column1 */
@@ -418,18 +432,35 @@ h1 {
 .main_bottom_column2 {
   float: left;
   width: 25%;
+  border-right: 2px solid #ffff;
+  padding: 20px 0;
+}
+
+.main_bottom_column2 hr {
+  margin: 20px 0;
 }
 /* /column2 */
 /* column3 */
 .main_bottom_column3 {
   float: left;
   width: 25%;
+  border-right: 2px solid #ffff;
+  padding: 20px 0;
+}
+
+.main_bottom_column3 hr {
+  margin: 20px 0;
 }
 /* /column3 */
 /* column4 */
 .main_bottom_column4 {
   float: left;
   width: 25%;
+  padding: 20px 0;
+}
+
+.main_bottom_column4 hr {
+  margin: 20px 0;
 }
 /* /column4 */
 /* /table */
