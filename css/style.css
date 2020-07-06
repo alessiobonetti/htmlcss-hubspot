@@ -260,8 +260,22 @@ h1 {
 .main_centre_top_right_column li {
   display: inline-block;
   list-style: none;
-  padding: 15px 5px;
+  padding: 15px 15px;
+  vertical-align: middle;
 }
+
+.main_centre_top_right_column_line {
+  height: 10px;
+  width: 300px;
+  border-top:  3px solid lightgrey;
+}
+
+.main_centre_top_right_column_navigation li {
+  padding-right: 30px;
+}
+
+.main_centre_top_right_column_navigation li i{
+  padding-right: 8px;
 /* /right column */
 /* /main centre top */
 /* /main centre */
