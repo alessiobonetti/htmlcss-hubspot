@@ -111,12 +111,12 @@
 }
 
 .main_bottom_hr {
-  .main_hr {
+
     display: inline-block;
-    width: 350px;
+    width: 243px;
     background-color: #fff;
     border: 1px solid #fff;
-  }
+
 }
 /* /hr */
 
@@ -398,8 +398,8 @@ h1 {
 
 /* main centre bottom */
 .main_centre_bottom_background {
-  background: rgb(24,203,131);
-  background: linear-gradient(48deg, rgba(24,203,131,1) 55%, rgba(15,139,164,1) 100%);
+  background: rgb(15,139,164);
+  background: linear-gradient(48deg, rgba(15,139,164,1) 67%, rgba(24,203,131,1) 100%);
 }
 
 #main_centre_bottom {
