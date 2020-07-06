@@ -473,3 +473,33 @@ h1 {
 /* /table */
 /* /main centre bottom */
 /* /main */
+
+/* main bottom */
+/* main bottom top */
+#main_bottom_top {
+  padding: 25px 15px;
+}
+/* column left */
+.main_bottom_top_column_left {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+/* /column left */
+
+/* column right */
+.main_bottom_top_column_right {
+  float: left;
+  width: 80%;
+}
+
+.main_bottom_top_column_right li{
+  display: inline-block;
+  list-style: none;
+}
+/* /column right */
+/* /main bottom top */
+
+/* main bottom middle */
+/* /main bottom middle */
+/* /main bottom */
