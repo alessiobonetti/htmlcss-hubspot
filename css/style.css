@@ -34,6 +34,10 @@
   font-size: 18px;
   padding-bottom: 10px;
 }
+
+.text_h5 {
+  font-size: 30px;
+}
 /* /fonts */
 
 /* buttons */
@@ -65,6 +69,11 @@
 /* img */
 .main_logo {
   height: 100px;
+}
+
+.main_centre_bottom_icon {
+  height: 30px;
+
 }
 /* /img */
 
@@ -373,9 +382,57 @@ h1 {
 
 .main_centre_middle_right_list li {
   list-style: none;
+}
 /* right column */
-
-
 /* /main centre middle */
 /* /main centre */
+
+/* main centre bottom */
+.main_centre_bottom_background {
+  height: 500px;
+  background: rgb(24,203,131);
+  background: linear-gradient(48deg, rgba(24,203,131,1) 55%, rgba(15,139,164,1) 100%);
+}
+
+#main_centre_bottom {
+  text-align: center;
+}
+
+#main_centre_bottom strong {
+  font-size: 35px;
+}
+
+#main_centre_bottom > p {
+  padding: 30px 10px;
+}
+
+/* table */
+}
+/* column1 */
+.main_bottom_column1 {
+  float: left;
+  width: 25%;
+}
+
+/* /column1 */
+/* column2 */
+.main_bottom_column2 {
+  float: left;
+  width: 25%;
+}
+/* /column2 */
+/* column3 */
+.main_bottom_column3 {
+  float: left;
+  width: 25%;
+}
+/* /column3 */
+/* column4 */
+.main_bottom_column4 {
+  float: left;
+  width: 25%;
+}
+/* /column4 */
+/* /table */
+/* /main centre bottom */
 /* /main */
