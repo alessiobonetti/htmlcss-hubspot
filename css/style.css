@@ -210,4 +210,21 @@ h1 {
   padding: 20px 0;
 }
 /* /main top */
+
+/* main centre */
+/* main centre top */
+#main_centre_top {
+  border-radius: 5px;
+  box-shadow: 2px #C8C8C8;
+}
+
+.main_centre_top_left_list li {
+  list-style: none;
+}
+
+.main_centre_top_left_list img{
+  height: 100px;
+}
+/* /main centre top */
+/* /main centre */
 /* /main */
