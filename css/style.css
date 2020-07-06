@@ -43,6 +43,10 @@
 
 /* containers */
 /* small */
+.container_small {
+  width: 50%;
+  margin: auto;
+}
 /* /small */
 
 /* normal */
@@ -53,6 +57,7 @@
 /* /normal */
 /* /containers */
 
+/* header */
 /* header top */
 #header_top_container {
   background-color: #FFF1EE;
@@ -177,3 +182,31 @@ h1 {
 
 /* header bottom */
 /* /header bottom */
+
+/* /header */
+
+/* main */
+/* main top */
+.main_top_img {
+  float: left;
+  height: 200px;
+  width: 100%;
+  background-image: url(../img/Integrations_Illustration_2x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 5% 31%;
+}
+.main_top_text {
+  text-align: center;
+  padding: 15px;
+}
+
+.main_top_text strong {
+  font-size: 35px;
+}
+
+.main_top_text p{
+  padding: 20px 0;
+}
+/* /main top */
+/* /main */
