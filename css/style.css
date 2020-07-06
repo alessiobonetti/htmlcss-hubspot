@@ -28,6 +28,12 @@
   font-size: 25px;
   padding-bottom: 10px;
 }
+
+.text_h4 {
+  padding-top: 25px;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
 /* /fonts */
 
 /* buttons */
@@ -58,7 +64,7 @@
 
 /* img */
 .main_logo {
-  height: 150px;
+  height: 100px;
 }
 /* /img */
 
@@ -95,6 +101,7 @@
   border: 1px solid lightgrey;
 }
 /* /hr */
+
 
 /* header */
 /* header top */
@@ -307,9 +314,21 @@ h1 {
   padding: 50px 0;
 }
 
+#main_centre_middle li i {
+  padding-right: 8px;
+}
+
 #main_centre_middle div {
   text-align: center;
+  padding: 25px;
+}
 
+#main_centre_middle li {
+  text-align: left;
+}
+
+#main_centre_middle div p {
+  padding-bottom:  50px;
 }
 /* left column */
 .main_centre_middle_left_column {
@@ -318,14 +337,27 @@ h1 {
   margin-right: 13%;
 }
 
+.main_centre_middle_left_list {
+  padding: 20px 0 50px 0;
+}
 
-
+.main_centre_middle_left_list li {
+  list-style: none;
+}
 /* /left column */
 
 /* middle column */
 .main_centre_middle_middle_column {
   float: left;
   width: 25%;
+}
+
+.main_centre_middle_middle_list {
+  padding: 20px 0 50px 0;
+}
+
+.main_centre_middle_middle_list li {
+  list-style: none;
 }
 /* /middle column */
 
@@ -334,6 +366,13 @@ h1 {
   float: right;
   width: 25%;
 }
+
+.main_centre_middle_right_list {
+  padding: 20px 0 50px 0;
+}
+
+.main_centre_middle_right_list li {
+  list-style: none;
 /* right column */
 
 
