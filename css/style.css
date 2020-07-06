@@ -87,6 +87,15 @@
 }
 /* /borders */
 
+/* hr */
+.main_hr {
+  display: inline-block;
+  width: 250px;
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+}
+/* /hr */
+
 /* header */
 /* header top */
 #header_top_container {
