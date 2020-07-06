@@ -19,6 +19,10 @@
   font-size: 16px;
   color: #000;
 }
+
+.fa-check-circle {
+  color:#FF7A59;
+}
 /* /fonts */
 
 /* buttons */
@@ -214,17 +218,51 @@ h1 {
 /* main centre */
 /* main centre top */
 #main_centre_top {
+  border: 1px solid #C8C8C8;
   border-radius: 5px;
   box-shadow: 2px #C8C8C8;
+  padding: 40px 30px;
+}
+/* left column */
+.main_centre_top_left_column {
+  float: left;
+  width: 50%;
+  text-align: center;
 }
 
 .main_centre_top_left_list li {
   list-style: none;
+  padding: 10px 0 ;
+}
+
+.main_centre_top_left_list li button {
+  padding: 16px 25px;
 }
 
 .main_centre_top_left_list img{
   height: 100px;
 }
+/* /left column */
+
+/* right column */
+.main_centre_top_right_column {
+  float: left;
+  width: 50%;
+  text-align: left;
+  margin-left: -100px;
+}
+
+.main_centre_top_right_column h3 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.main_centre_top_right_column li {
+  display: inline-block;
+  list-style: none;
+  padding: 15px 5px;
+}
+/* /right column */
 /* /main centre top */
 /* /main centre */
 /* /main */
