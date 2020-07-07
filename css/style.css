@@ -488,19 +488,43 @@ h1 {
   float: left;
   width: 20%;
   text-align: center;
+  margin-left: 80px;
 }
 /* /column left */
 
 /* column right */
 .main_bottom_top_column_right {
   float: left;
-  width: 80%;
+  width: 70%;
+  text-align: center;
 }
 
 .main_bottom_top_column_right li{
   display: inline-block;
   list-style: none;
+  vertical-align: middle;
+  margin: 8px 18px;
 }
+
+.main_bottom_top_column_right_bottom_list li {
+  padding-right:  15px;
+}
+/* img heights */
+.g2crowd {
+  height: 25px;
+}
+.survey_monkey {
+  height: 35px;
+}
+
+.subaru {
+  height: 35px;
+}
+
+.classpass {
+  height: 35px;
+}
+/* /img heights */
 /* /column right */
 /* /main bottom top */
 
