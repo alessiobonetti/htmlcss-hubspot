@@ -152,6 +152,7 @@ footer {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 .navbar div {
@@ -249,6 +250,7 @@ footer {
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  z-index: 0;
 }
 
 /* layer */
@@ -260,6 +262,7 @@ footer {
   width: 100%;
   background-color: #AAE9E2;
   border-top: 2px solid #000;
+  z-index: 1;
 
 }
 /* /layer */
