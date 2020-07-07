@@ -456,8 +456,8 @@ h1 {
 .main_bottom_column1 hr {
   margin: 20px 0;
 }
-
 /* /column1 */
+
 /* column2 */
 .main_bottom_column2 {
   float: left;
@@ -470,6 +470,7 @@ h1 {
   margin: 20px 0;
 }
 /* /column2 */
+
 /* column3 */
 .main_bottom_column3 {
   float: left;
@@ -482,6 +483,7 @@ h1 {
   margin: 20px 0;
 }
 /* /column3 */
+
 /* column4 */
 .main_bottom_column4 {
   float: left;
@@ -502,6 +504,7 @@ h1 {
 #main_bottom_top {
   padding: 25px 15px;
 }
+
 /* column left */
 .main_bottom_top_column_left {
   float: left;
@@ -571,7 +574,6 @@ h1 {
   font-size: 31px;
   margin-bottom: 30px;
 }
-
 /* /left column */
 
 /* column right */
@@ -659,7 +661,6 @@ h1 {
   color : #c4d0dc;
 }
 /* /social list */
-
 /* /list4 */
 
 /* footer bottom */
@@ -691,6 +692,7 @@ h1 {
   color: #007fff;
 }
 /* /list language */
+
 /* left logo copyright */
 .footer_bottom_left_logo {
   float: left;
@@ -728,7 +730,6 @@ h1 {
 .footer_bottom_right_privacy a:hover {
   color: #007fff;
 }
-
 /* /right privacy */
 /* /footer bottom */
 /* /footer */
