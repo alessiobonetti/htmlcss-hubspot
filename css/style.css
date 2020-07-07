@@ -145,9 +145,25 @@ footer {
 }
 /* /hr */
 
+/* navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #F4F9FD;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar div {
+  text-align: left;
+  display: block;
+}
+/* /navbar */
+
 
 /* header */
 /* header top */
+
 #header_top_container {
   border-bottom: 1px solid black;
 }
@@ -204,7 +220,7 @@ footer {
 /* header middle */
 /* header middle top */
 #header_middle_top {
-  padding: 15px 0;
+  padding: 60px 0;
 }
 
 .header_middle_top_logo{
