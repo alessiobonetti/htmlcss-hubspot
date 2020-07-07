@@ -600,6 +600,27 @@ h1 {
 }
 /* /footer top */
 
+/* list1 */
+/* /list1 */
+
+/* list2 */
+/* /list2 */
+
+/* list3 */
+/* /list3 */
+
+/* list4 */
+.footer_top_list_social li {
+  display: inline-block;
+  
+}
+
+.footer_top_list_social a {
+
+  text-decoration: none;
+}
+/* /list4 */
+
 /* footer bottom */
 /* /footer bottom */
 /* /footer */
