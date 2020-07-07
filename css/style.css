@@ -601,7 +601,7 @@ h1 {
   text-decoration: none;
 }
 
-.footer_top a :hover {
+.footer_top a:hover {
   color: #007fff;
 }
 
@@ -637,6 +637,10 @@ li:first-child {
 
 .footer_top_list_social a {
   text-decoration: none;
+}
+
+.footer_top_list_social a :hover{
+  color: #007fff;
 }
 
 .footer_top_list_social i {
