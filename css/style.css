@@ -571,3 +571,35 @@ h1 {
 /* /column right */
 /* /main bottom middle */
 /* /main bottom */
+
+/* footer */
+
+/* background */
+#footer_background {
+  background-color: #32495b;
+}
+/* /background */
+
+/* container */
+/* /container */
+
+/* footer top */
+.footer_top div {
+  float: left;
+  width: 25%;
+}
+.footer_top li {
+  list-style: none;
+}
+.footer_top a {
+  text-decoration: none;
+}
+
+.footer_top li > strong {
+  color: #fff;
+}
+/* /footer top */
+
+/* footer bottom */
+/* /footer bottom */
+/* /footer */
