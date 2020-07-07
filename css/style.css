@@ -130,8 +130,8 @@ footer {
 .main_hr {
   display: inline-block;
   width: 250px;
-  background-color: lightgrey;
-  border: 1px solid lightgrey;
+  background-color: #888888;
+  border: 1px solid #888888;
 }
 
 .main_bottom_hr {
@@ -332,13 +332,13 @@ h1 {
   display: inline-block;
   list-style: none;
   padding: 15px 15px;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 .main_centre_top_right_column_line {
   height: 10px;
   width: 300px;
-  border-top:  3px solid lightgrey;
+  border-top:  3px solid #888888;
 }
 
 .main_centre_top_right_column_navigation li {
