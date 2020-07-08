@@ -219,9 +219,13 @@ footer {
 /* /header top */
 
 /* header middle */
+#header_middle {
+  background-color: #fff;
+}
 /* header middle top */
 #header_middle_top {
   padding: 60px 0;
+
 }
 
 .header_middle_top_logo{
@@ -322,6 +326,7 @@ h1 {
 /* main centre top */
 #main_centre_top {
   padding: 40px 30px;
+  background-color: #fff;
 }
 /* left column */
 .main_centre_top_left_column {
@@ -396,6 +401,7 @@ h1 {
   float: left;
   width: 25%;
   margin-right: 13%;
+  background-color: #fff;
 }
 
 .main_centre_middle_left_list {
@@ -411,6 +417,7 @@ h1 {
 .main_centre_middle_middle_column {
   float: left;
   width: 25%;
+  background-color: #fff;
 }
 
 .main_centre_middle_middle_list {
@@ -426,6 +433,7 @@ h1 {
 .main_centre_middle_right_column {
   float: right;
   width: 25%;
+  background-color: #fff;
 }
 
 .main_centre_middle_right_list {
